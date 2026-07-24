@@ -1,0 +1,26 @@
+{
+  "name": "dorisman",
+  "version": "0.1.2",
+  "private": true,
+  "description": "DorisMan — Doris 授权管理平台（根编排脚本与打包工具链）",
+  "scripts": {
+    "dev": "node server/src/index.js",
+    "dev:server": "node server/src/index.js",
+    "dev:web": "npm --prefix web run dev",
+    "build": "npm --prefix web run build && node scripts/bundle-server.js",
+    "package": "node scripts/package.js",
+    "test": "npm --prefix server test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "pkg": {
+    "assets": [
+      "web/dist/**/*"
+    ]
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1",
+    "pkg": "^5.8.1"
+  }
+}

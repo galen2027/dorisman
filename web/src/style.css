@@ -1,0 +1,46 @@
+/* 全局样式：经典管理后台风格，少量全局 Reset 与工具类 */
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  background-color: #f0f2f5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 页面内容区通用卡片 */
+.page-card {
+  background: #fff;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+/* 页面顶部工具条（搜索框 / 按钮等） */
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.toolbar .spacer {
+  flex: 1;
+}
+
+/* 等宽字体（SQL 展示用） */
+.mono {
+  font-family: Consolas, 'Courier New', monospace;
+}
+
+/* 高风险提示色 */
+.danger-text {
+  color: #e6a23c;
+}

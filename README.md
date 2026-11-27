@@ -1,5 +1,7 @@
 # DorisMan — Doris 授权管理平台
 
+项目文档（2026-11-27）：[AGENTS.md](AGENTS.md) 为开发协作入口；[项目现状与功能扩展设计方案 v1.0](docs/DorisMan项目设计方案_v1.0_261127.md) 记录当前代码、已知差异，以及部门/小组、行列权限、安全审计和关于/帮助的待实施设计。本文的历史能力与验证说明应结合该方案阅读。
+
 <p align="center">
   <img src="web/public/logo.png" alt="DorisMan Logo" width="120" />
 </p>

@@ -1,5 +1,7 @@
 # DorisMan — 功能执行计划清单（待确认版）
 
+> 历史记录说明（2026-11-27）：以下计划、勾选状态和测试数字保留原貌，不代表本次核查结果。当前项目现状、已知问题与新增需求见 [项目设计方案 v1.0](docs/DorisMan项目设计方案_v1.0_261127.md)，开发入口见 [AGENTS.md](AGENTS.md)。文末资源分组与 FE/BE 节点管理仍为历史待办，本轮未确认纳入开发。
+
 > 目标：面向 Apache Doris 3.x/4.x（存算一体）的免 SQL 授权管理平台，
 > 最终交付为单一二进制，解压即用，支持 统信 UOS V20 / Debian 11.9（linux-x64）。
 > 技术栈已确认：Vue 3 + Element Plus + Node.js（Express + mysql2）。
